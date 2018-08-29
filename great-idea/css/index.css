@@ -99,8 +99,28 @@ header nav{
 
 
 
+/*Middle img*/
+.main-content .middle-img{
+	margin-top: 45px;
+}
+
+
+/*bottom Content section*/
+.main-content .bottom-content{
+	display: flex;
+	margin-top: 37px;
+	justify-content: space-between;
+
+}
+.main-content .bottom-content .one-third{
+	width: 275px;
+}
+
+
 /*Contact Section*/
 .contact{
+	margin-top: 57px;
+	border-top: 1px solid black;
 	display: flex;
 	flex-direction: column;
 }
