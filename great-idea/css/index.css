@@ -97,7 +97,19 @@ header nav{
 }
 
 
+/*Top-content*/
+.main-content{
+	border-top: 1px solid black;margin-top: 76px;
+	padding-top: 39px;
+}
+.main-content .top-content{
+	display:flex;
+	justify-content: space-between;
 
+}
+.main-content .top-content .one-half{
+	width: 410px
+}
 
 /*Middle img*/
 .main-content .middle-img{
