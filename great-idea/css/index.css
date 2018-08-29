@@ -72,17 +72,15 @@ h1, h2, h3, h4, h5 {
 
 .container header{
 	display:flex;
-	justify-content: space-between;
 	margin-top: 20px;
-
 }
 
 header nav{
 	width: 691px;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	align-items: center;
-	
+	margin-right: 65px;	
 }
 
 .container nav a {
@@ -169,3 +167,24 @@ footer{
 	justify-content: center;
 	margin: 30px;
 }
+
+
+/*Services.html*/
+
+
+.services-header-img{
+	margin: 25px 0;
+	width: 880px;
+	height: auto;
+}
+
+.container .services h2{
+	font-size: 20px;
+}
+
+.container .services p{
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px black solid;
+}
+
