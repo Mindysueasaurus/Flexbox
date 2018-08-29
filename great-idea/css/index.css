@@ -95,9 +95,21 @@ header nav{
 /*hero*/
 .container .hero{
 	display: flex;
-	justify-content: flex-end;
+	justify-content: space-around;
 	align-items: center;
 
+}
+.container .hero .hero-text{
+	width: 410px;
+	font-size: 77px;
+	text-align: center;
+	margin-top: 69px;
+}
+.container .hero button{
+	border: 1px solid black;
+	padding: 8px 44px;
+	font-size: 17px;
+	background:white;
 }
 .container .hero img{
 	margin-top: 69px;
