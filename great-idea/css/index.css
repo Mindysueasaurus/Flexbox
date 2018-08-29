@@ -165,7 +165,7 @@ header nav{
 footer{
 	display: flex;
 	justify-content: center;
-	margin: 30px;
+	margin: 40px;
 }
 
 
@@ -188,3 +188,37 @@ footer{
 	border-bottom: 1px black solid;
 }
 
+
+
+
+
+/*About Services Section*/
+.about-services{
+	display:flex;
+	border-top: 1px solid black;
+	margin-top: 30px ;
+	justify-content: space-between;
+}
+.about-services div{
+	width: 410px;
+	
+}
+.about-services h4, img{
+	margin-top: 30px;
+
+}
+.about-serviices p, ul{
+	font-size: 14px;
+}
+.about-services ul{
+	margin-top: 20px;
+	list-style-type: square;
+	list-style-position: inside;
+}
+.about-services ul li{
+	margin-bottom: 15px;
+}
+.about-services img{
+	width: 410px;
+	height: 275px;
+}
